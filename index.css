@@ -1,0 +1,90 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: cornsilk;
+}
+
+#container{
+    width: 360px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header > h1{
+    margin: 16px 0;
+    color: cadetblue;
+}
+.js-numbers{
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+    margin: 0 auto;
+}
+.js-numbers > div{
+    width: 50px;
+    height: 36px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+.number{
+    margin: 0;
+    line-height: 40px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: white;
+}
+.selected > p{
+    color: white;
+    background-color: cadetblue;
+}
+
+.ing{
+    visibility: hidden;
+}
+.visible{
+    visibility: visible;
+}
+.js-btn{
+    background-color: cadetblue;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.result > div{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 12px;
+    margin: 0 0 5px 0;
+    background-color: white;
+}
+.result > div > div{
+    margin: 10px;
+    width: 32px;
+    height: 32px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: white;
+}
+.js-reset{
+    display: none;
+    background-color: cadetblue;
+    color: white;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.js-btn:active, .js-btn:focus{
+    outline: none;
+}
+footer > h3{
+    border-top: 1px solid black;
+    padding-top: 10px;
+}
